@@ -18,7 +18,7 @@ class KtpSeeder extends Seeder
 
     	for($i = 1; $i <= 50; $i++){
 
-        $dt = $faker->dateTimeBetween($startDate = '-17 years', $endDate = 'now');
+        $dt = $faker->dateTimeBetween($startDate = '-90 years', $endDate = '-17 years');
         $date = $dt->format("Y-m-d");
 
         $dt1 = $faker->dateTimeBetween($startDate = '-10 years', $endDate = 'now');
